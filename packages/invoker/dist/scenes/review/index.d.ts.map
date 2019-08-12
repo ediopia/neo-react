@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/scenes/review/index.tsx"],"names":[],"mappings":";AACA,OAAO,EAAE,eAAe,EAAE,YAAY,EAAE,QAAQ,EAAE,MAAM,aAAa,CAAC;AAMtE,UAAU,gBAAgB;IACxB,MAAM,EAAE,eAAe,CAAC;IACxB,MAAM,EAAE,YAAY,CAAC;IACrB,QAAQ,EAAE,CAAC,EAAE,EAAE,QAAQ,KAAK,IAAI,CAAC;CAClC;AASD,QAAA,MAAM,YAAY,iEAgDjB,CAAC;AAEF,eAAe,YAAY,CAAC"}

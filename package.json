@@ -3,9 +3,13 @@
   "scripts": {
     "clean": "lerna run clean",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run tsc",
+    "build": "lerna run build",
+    "dist": "lerna run dist",
     "lint": "eslint packages/**/src/**/*.tsx packages/**/src/**/*.ts --fix",
-    "release": "lerna publish",
+    "precommit": "yarn lint",
+    "prestart": "yarn build && yarn dist",
+    "prepublishOnly": "lerna run prepublishOnly",
+    "release": "yarn prepublishOnly && lerna publish",
     "start": "jest --watch",
     "test": "jest",
     "test:integration": "jest /packages/.*/__integration__/.*",
@@ -20,6 +24,7 @@
     "@types/yup": "^0.26.22",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
+    "clean-webpack-plugin": "^3.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
@@ -34,8 +39,11 @@
     "lerna": "^3.15.0",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.8.6",
+    "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
   },
   "workspaces": [
     "packages/*"

@@ -15,19 +15,25 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "ED <hieddiejung@gmail.com>",
+  "author": "ED <hieddiejung@gmail.com> (https://github.com/ediopia)",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "dist"
   ],
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc -b",
+    "dist": "tsc -m commonjs --outDir dist",
+    "clean": "rimraf ./lib ./dist tsconfig.tsbuildinfo",
+    "prepublishOnly": "yarn clean && yarn build && yarn dist",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "peerDependencies": {
