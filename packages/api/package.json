@@ -32,10 +32,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@types/store": "^2.0.2",
     "o3-dapi-core": "^0.3.11",
     "o3-dapi-neo": "^0.6.0",
     "store": "^2.0.12"
   },
-  "gitHead": "8679a5a0dc9b08f50ec4b5887b494b89952ed945"
+  "gitHead": "c9bc9ff029226b5f0549168e36cd8c0d9484dd9b"
 }

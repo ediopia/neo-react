@@ -31,6 +31,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@neo-react/api": "^0.0.3",
     "@neo-react/local-wallet": "^0.0.3",
     "react-icons": "^3.7.0",
     "react-loading": "^2.0.3",
@@ -39,10 +40,8 @@
     "styled-components": "^4.3.2"
   },
   "peerDependencies": {
-    "@neo-react/api": "^0.0.0",
-    "@neo-react/local-wallet": "^0.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.0"
   },
-  "gitHead": "8679a5a0dc9b08f50ec4b5887b494b89952ed945"
+  "gitHead": "c9bc9ff029226b5f0549168e36cd8c0d9484dd9b"
 }
