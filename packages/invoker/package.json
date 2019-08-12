@@ -1,6 +1,6 @@
 {
   "name": "@neo-react/invoker",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "React component that helps submitting a new transaction in order to invoke smart contracts.",
   "keywords": [
     "neo",
