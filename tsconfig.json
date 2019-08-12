@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./packages/local-wallet" },
+    { "path": "./packages/wallets" },
+    { "path": "./packages/invoker" },
+    { "path": "./packages/api" }
+  ]
+}

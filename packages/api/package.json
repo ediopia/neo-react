@@ -1,0 +1,37 @@
+{
+  "name": "@neo-react/api",
+  "version": "0.0.1",
+  "description": "Library that provides useful methods to develop NEO dApp.",
+  "keywords": [
+    "neo",
+    "blockchain",
+    "wallets",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ediopia/neo-react.git"
+  },
+  "author": "ED <hieddiejung@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "tsc": "tsc",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@types/store": "^2.0.2",
+    "o3-dapi-core": "^0.3.11",
+    "o3-dapi-neo": "^0.6.0",
+    "store": "^2.0.12"
+  }
+}

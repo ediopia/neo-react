@@ -1,0 +1,2244 @@
+{
+  "program": {
+    "fileInfos": {
+      "/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b",
+        "signature": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1",
+        "signature": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a",
+        "signature": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b",
+        "signature": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859",
+        "signature": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3",
+        "signature": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62",
+        "signature": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts": {
+        "version": "2bbdfc5ed049f38787376bb01b7bcfe5299eac853c76c16a3e21ab0279078314",
+        "signature": "2bbdfc5ed049f38787376bb01b7bcfe5299eac853c76c16a3e21ab0279078314"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts": {
+        "version": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc",
+        "signature": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts": {
+        "version": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2",
+        "signature": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts": {
+        "version": "81d7e951aa7e684a3901429a3141faf0db81348842daf1157d99d1ab98c5a3bb",
+        "signature": "81d7e951aa7e684a3901429a3141faf0db81348842daf1157d99d1ab98c5a3bb"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts": {
+        "version": "dc49082466ff7e61cfbaf146f106a59274dbb95f726ed1e22a54375f82992953",
+        "signature": "dc49082466ff7e61cfbaf146f106a59274dbb95f726ed1e22a54375f82992953"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "fe06c9ab9abf0dab56969c939843475ba7a6bd28e3e3abb1270d842c91ffc8e6",
+        "signature": "fe06c9ab9abf0dab56969c939843475ba7a6bd28e3e3abb1270d842c91ffc8e6"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "768dec00dc5dcf5507fe189fec9c1dab6b65dd1647f837e5c484c10ad04cb731",
+        "signature": "768dec00dc5dcf5507fe189fec9c1dab6b65dd1647f837e5c484c10ad04cb731"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "5eb451d7ec8534087b5d09388630090f600a0a3e15d004ef62de723f9408c3b1",
+        "signature": "5eb451d7ec8534087b5d09388630090f600a0a3e15d004ef62de723f9408c3b1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts": {
+        "version": "2bce9570939b15db87478ed4902e618c7a5a78667a2da088e091e43a59709f14",
+        "signature": "2bce9570939b15db87478ed4902e618c7a5a78667a2da088e091e43a59709f14"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts": {
+        "version": "bca166983a1b4bea5aff7ac14949ed25c065d0a006990136b75c3f4690c4e93c",
+        "signature": "bca166983a1b4bea5aff7ac14949ed25c065d0a006990136b75c3f4690c4e93c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts": {
+        "version": "f9c33085ccadc696db518a7f559a6aaa22297de5b0a95a2716b9147f6f7592c8",
+        "signature": "f9c33085ccadc696db518a7f559a6aaa22297de5b0a95a2716b9147f6f7592c8"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts": {
+        "version": "210518ab20f243c47f2fb1999bf672901eb6ebd29b328519df5c76c39bae7618",
+        "signature": "210518ab20f243c47f2fb1999bf672901eb6ebd29b328519df5c76c39bae7618"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "8d50040e8a1354075297820c27e3c7f8f9b701b75333daef1ac4112150ccf461",
+        "signature": "8d50040e8a1354075297820c27e3c7f8f9b701b75333daef1ac4112150ccf461"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts": {
+        "version": "bf383c065aacf67ac4b21401f839e90e2bf0af6c1d37f95f59ac92ae5d8a0b7b",
+        "signature": "b2ae02b74750a9328fa0c13e26434e47acdb42a97f45ce9157008f1df3f296b1"
+      },
+      "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts": {
+        "version": "068cda742414c247cbf9bcbed8ed70913374b22f41dec0efe38aad2384458103",
+        "signature": "068cda742414c247cbf9bcbed8ed70913374b22f41dec0efe38aad2384458103"
+      },
+      "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts": {
+        "version": "5e78eb980fc887d8818c21efcc70fd4c99fe08de39dc2d28532deccaf5924848",
+        "signature": "5e78eb980fc887d8818c21efcc70fd4c99fe08de39dc2d28532deccaf5924848"
+      },
+      "/users/ed/projects/modules/neo-react/packages/api/lib/index.d.ts": {
+        "version": "23a4c6061b91f415a66d89c7c4517b5737040555bbea79416ad09fcde50bc452",
+        "signature": "23a4c6061b91f415a66d89c7c4517b5737040555bbea79416ad09fcde50bc452"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts": {
+        "version": "9af0933b1aaaa6adc78a918c56929845c51a9d08f9c707165a9170acb2ca6ccb",
+        "signature": "9af0933b1aaaa6adc78a918c56929845c51a9d08f9c707165a9170acb2ca6ccb"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts": {
+        "version": "2549ec9de97db0b737f827958cf6dbd08be95c444e070dac156930dcfe919cf7",
+        "signature": "2549ec9de97db0b737f827958cf6dbd08be95c444e070dac156930dcfe919cf7"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts": {
+        "version": "6460cd7020078dcaae752b71342a5d16df35f61f7404db53e5d176438f7880b1",
+        "signature": "6460cd7020078dcaae752b71342a5d16df35f61f7404db53e5d176438f7880b1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts": {
+        "version": "66d5c68894bb2975727cd550b53cd6f9d99f7cb77cb0cbecdd4af1c9332b01dd",
+        "signature": "66d5c68894bb2975727cd550b53cd6f9d99f7cb77cb0cbecdd4af1c9332b01dd"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/fa/index.d.ts": {
+        "version": "49dce890893f25cbba59c18bd8f12b77ddbac26e4f6f08180f6426bc420611ee",
+        "signature": "49dce890893f25cbba59c18bd8f12b77ddbac26e4f6f08180f6426bc420611ee"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/plugins/index.tsx": {
+        "version": "0c382a737d5451d683051e051e45209bf9ecdf8311cb1f35a3448152a8425441",
+        "signature": "34df009dfb012ecb52bb0aa1eb3a4265f25fec0132e10fdd6f3f45401d40c591"
+      },
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts": {
+        "version": "8e054bd766bdd9739702d919f692045e6f6fd2ed4ad8f26a51907f007517277f",
+        "signature": "8e054bd766bdd9739702d919f692045e6f6fd2ed4ad8f26a51907f007517277f"
+      },
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts": {
+        "version": "ebd3cd8ef1d5fde05b367038033bdb1008ac9934f0366add211949fffc47b0ce",
+        "signature": "ebd3cd8ef1d5fde05b367038033bdb1008ac9934f0366add211949fffc47b0ce"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/wallet-menu/index.tsx": {
+        "version": "086ef990e8fab6dbb9f88fcdbf458e56dabd2a204df5f8ce0051144882fd56bf",
+        "signature": "78451b9ab54b3e487b1e8d1d1fb1cafb2e9f2277f490f8780cb5a812dd20e3b0"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/routes.ts": {
+        "version": "55e21f0a6ace2460ad7bfc219a4e34bf36e85135f78373584b413b388a94d127",
+        "signature": "6ee69a0e0dd92af079547637162cba3ad189266595ec6b6e72673f374b5659df"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx": {
+        "version": "30962437f32381438aab761c63dcecd5c2e7dd0b18ebdf656d0f2d9298be2ef8",
+        "signature": "524791e2bf5a16c378c4fe750c1863c8b1489f9550d93afa838c48e2c9ff1a16"
+      },
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/local-wallet/index.tsx": {
+        "version": "a5d4820652c630a3c2cc932489d93853e5f56efa56415a9f58acfd7f6b936ac2",
+        "signature": "839700d8a4acf607274df308331ce06ef51242fc5a299a7b8afe6a7d8ddd4b58"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "bc12492fa90cd2ad3f73c10efa597503dbf59ebac0e3c9728cc10adaad6b0b87",
+        "signature": "bc12492fa90cd2ad3f73c10efa597503dbf59ebac0e3c9728cc10adaad6b0b87"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts": {
+        "version": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3",
+        "signature": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "44d81327b8fbb2d7ca0701f5b7bb73e48036eb99a87356acf95f19ed96e907aa",
+        "signature": "44d81327b8fbb2d7ca0701f5b7bb73e48036eb99a87356acf95f19ed96e907aa"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "signature": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__core/index.d.ts": {
+        "version": "8f279d393b3572c5c0a8428d46d00281c38a5ef52dc9dd513fc861c31a5d6420",
+        "signature": "8f279d393b3572c5c0a8428d46d00281c38a5ef52dc9dd513fc861c31a5d6420"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts": {
+        "version": "e4461b72726848da76a31153b6b01af5e0be3b08dbfa2ec5741ad302eb20f2ed",
+        "signature": "e4461b72726848da76a31153b6b01af5e0be3b08dbfa2ec5741ad302eb20f2ed"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "signature": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts": {
+        "version": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878",
+        "signature": "61215c1a376bbe8f51cab4cc4ddbf3746387015113c37a84d981d4738c21b878"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/events/index.d.ts": {
+        "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "signature": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts": {
+        "version": "123366127434e33eade36f3d06653dbc7457397fc93cfdd100776cfc12b6734c",
+        "signature": "123366127434e33eade36f3d06653dbc7457397fc93cfdd100776cfc12b6734c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts": {
+        "version": "8ce9418c78d3c1fb703ddbe38c936d34a989ba278666979826590dfa0772a424",
+        "signature": "8ce9418c78d3c1fb703ddbe38c936d34a989ba278666979826590dfa0772a424"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts": {
+        "version": "77c1fb6a190212f87a5edb26351d419c31dff1992c48707540cdcf812e4655f1",
+        "signature": "77c1fb6a190212f87a5edb26351d419c31dff1992c48707540cdcf812e4655f1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts": {
+        "version": "7954df44c35d39b851b996fdc1af0a252e4e23f862abfef388a058203bb94c30",
+        "signature": "7954df44c35d39b851b996fdc1af0a252e4e23f862abfef388a058203bb94c30"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts": {
+        "version": "ef226a42de7022eacdfa0f15aabf73b46c47af93044c8ebfab8aa8e3cf6c330c",
+        "signature": "ef226a42de7022eacdfa0f15aabf73b46c47af93044c8ebfab8aa8e3cf6c330c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts": {
+        "version": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "signature": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts": {
+        "version": "6bd120d96313412155ae7d4766d586a38576a058b3e269be2152db7030fbc882",
+        "signature": "6bd120d96313412155ae7d4766d586a38576a058b3e269be2152db7030fbc882"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts": {
+        "version": "db6de49919cf11a300f9203371d8e251d58558c509b3b92cee3badadfdb34d36",
+        "signature": "db6de49919cf11a300f9203371d8e251d58558c509b3b92cee3badadfdb34d36"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts": {
+        "version": "745494f14a9e133beee622ca51cdc59c8896ff77c9f3cd017a4ce735b30dac2d",
+        "signature": "745494f14a9e133beee622ca51cdc59c8896ff77c9f3cd017a4ce735b30dac2d"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts": {
+        "version": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
+        "signature": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts": {
+        "version": "1224b49e2c8f3b4ed618969d2989412d1282536d2a6a31c30c84d5da01d8b8e4",
+        "signature": "1224b49e2c8f3b4ed618969d2989412d1282536d2a6a31c30c84d5da01d8b8e4"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts": {
+        "version": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e",
+        "signature": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts": {
+        "version": "0870ded99753a8561f19452466e7d094f122ef12960024946ea45d8694693f54",
+        "signature": "0870ded99753a8561f19452466e7d094f122ef12960024946ea45d8694693f54"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts": {
+        "version": "2350c09d0121a0b22c386a7bb8436d521b444c6b4b3e6ee37197d08a23f3b9dd",
+        "signature": "2350c09d0121a0b22c386a7bb8436d521b444c6b4b3e6ee37197d08a23f3b9dd"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
+        "signature": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts": {
+        "version": "af5f07deb33b2fb92ef67ea5ebb69670b81c74908b646e7cd4361a331d2a558a",
+        "signature": "af5f07deb33b2fb92ef67ea5ebb69670b81c74908b646e7cd4361a331d2a558a"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts": {
+        "version": "08261bfa763b8cd7fa74c06debf70ee22268c299a18e5dc7c48736bc352be007",
+        "signature": "08261bfa763b8cd7fa74c06debf70ee22268c299a18e5dc7c48736bc352be007"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts": {
+        "version": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "signature": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts": {
+        "version": "e98d697adf809fc14dc88ed4e00e4f0e0e381ca23d6d9320cf01af87e801f725",
+        "signature": "e98d697adf809fc14dc88ed4e00e4f0e0e381ca23d6d9320cf01af87e801f725"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts": {
+        "version": "ad20b1311e55187f8eeefdd282a02dbc70e5ac0cf8ab4cabae99c142b32cc562",
+        "signature": "ad20b1311e55187f8eeefdd282a02dbc70e5ac0cf8ab4cabae99c142b32cc562"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "7780573ed8387aaadcc61d87f3d60d77dabf1e060da252dc72ab1d73401988bb",
+        "signature": "7780573ed8387aaadcc61d87f3d60d77dabf1e060da252dc72ab1d73401988bb"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts": {
+        "version": "2ffd50644d73fc1fa59c69d48859b6c843d3604609d7353725b6d2b001f05a2b",
+        "signature": "2ffd50644d73fc1fa59c69d48859b6c843d3604609d7353725b6d2b001f05a2b"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/buffer/index.d.ts": {
+        "version": "818f832a8e29ca7e128dcde810a9ff8cbc3754010474e29fff0a5ed95adae032",
+        "signature": "818f832a8e29ca7e128dcde810a9ff8cbc3754010474e29fff0a5ed95adae032"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/base-x/index.d.ts": {
+        "version": "a9c4ccaf07ab3bc395082fe5edb3ba4ed06c2f69d57e749937462a891665b1e4",
+        "signature": "a9c4ccaf07ab3bc395082fe5edb3ba4ed06c2f69d57e749937462a891665b1e4"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts": {
+        "version": "b5c402b51d6bc805d447d1824fda6dbf299b36c8941e481f1cf0816080b6d44e",
+        "signature": "b5c402b51d6bc805d447d1824fda6dbf299b36c8941e481f1cf0816080b6d44e"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts": {
+        "version": "fe1686eeedb6d8af4ee391f6e8e53e3c5e9a56b8e070870517052d90a6916f05",
+        "signature": "fe1686eeedb6d8af4ee391f6e8e53e3c5e9a56b8e070870517052d90a6916f05"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bs58/index.d.ts": {
+        "version": "5cbc27193321e6ba10f4e9f3c5519649d9e2716cf103efd7eaa7a89e0f8ed1d4",
+        "signature": "5cbc27193321e6ba10f4e9f3c5519649d9e2716cf103efd7eaa7a89e0f8ed1d4"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/clipboard/index.d.ts": {
+        "version": "2ac89c16ebeda00239a2e15a43450996a53f8f529791cef8b4b9e68d0e12e057",
+        "signature": "2ac89c16ebeda00239a2e15a43450996a53f8f529791cef8b4b9e68d0e12e057"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/crypto-js/index.d.ts": {
+        "version": "1a95c84dec7c569b635e51de424ae9334d6c9e65f9e0d79c55d639914132c585",
+        "signature": "1a95c84dec7c569b635e51de424ae9334d6c9e65f9e0d79c55d639914132c585"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/elliptic/index.d.ts": {
+        "version": "0fc8feb0e71b7312fcfc032c9696bad1c622096c9e6a015c583ae8cdc9f72e90",
+        "signature": "0fc8feb0e71b7312fcfc032c9696bad1c622096c9e6a015c583ae8cdc9f72e90"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/eslint-visitor-keys/index.d.ts": {
+        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/glob/index.d.ts": {
+        "version": "d852d6282c8dc8156d26d6bda83ab4bde51fee05ba2fe0ecdc165ddda009d3ee",
+        "signature": "d852d6282c8dc8156d26d6bda83ab4bde51fee05ba2fe0ecdc165ddda009d3ee"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
+        "signature": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2",
+        "signature": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
+        "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts": {
+        "version": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06",
+        "signature": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts": {
+        "version": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7",
+        "signature": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17",
+        "signature": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest/index.d.ts": {
+        "version": "9dd180752ee664a74a525a05194afdd787295e56634b8adbc8525d7c0af64e96",
+        "signature": "9dd180752ee664a74a525a05194afdd787295e56634b8adbc8525d7c0af64e96"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/json-schema/index.d.ts": {
+        "version": "751b8d5b85eee82bd38964a6ff43e89e61a586c64f653e3d1eb8fa7eb372ed30",
+        "signature": "751b8d5b85eee82bd38964a6ff43e89e61a586c64f653e3d1eb8fa7eb372ed30"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/loglevel/index.d.ts": {
+        "version": "936817f7caf33d5cd6e7d4fcbf1db4463c48efcea6190fdb0cf68d0fd5505a3a",
+        "signature": "936817f7caf33d5cd6e7d4fcbf1db4463c48efcea6190fdb0cf68d0fd5505a3a"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts": {
+        "version": "8d8d23c8d6023c69d36939430ec1678763a1739dd9aedb62eda25e143e3d6f70",
+        "signature": "8d8d23c8d6023c69d36939430ec1678763a1739dd9aedb62eda25e143e3d6f70"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts": {
+        "version": "ec77f51e210ab48b73a2786406d019719360df17dd1e915b83c8905852c002b6",
+        "signature": "ec77f51e210ab48b73a2786406d019719360df17dd1e915b83c8905852c002b6"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts": {
+        "version": "51a997c9f91edc69fc4216a19e02161e5babeb8e8ecff99b49010ef2d38c9575",
+        "signature": "51a997c9f91edc69fc4216a19e02161e5babeb8e8ecff99b49010ef2d38c9575"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts": {
+        "version": "ae1a867799ca7265542b119e6e8f958651926a7c927d6f4177a44ea637f350e0",
+        "signature": "ae1a867799ca7265542b119e6e8f958651926a7c927d6f4177a44ea637f350e0"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts": {
+        "version": "943ae003f2ceddc602e07f2758cbcbc4a9694f216f5a472e8f7ecb9874c3f1a2",
+        "signature": "943ae003f2ceddc602e07f2758cbcbc4a9694f216f5a472e8f7ecb9874c3f1a2"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts": {
+        "version": "7464a287bf351ee608bec6f353411edc05bb8d7fa29cce1836a86caac05cb28c",
+        "signature": "7464a287bf351ee608bec6f353411edc05bb8d7fa29cce1836a86caac05cb28c"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/store/index.d.ts": {
+        "version": "683691a96f46b420718449463fea488f22b4a2b7250ed34de677478c782ab5f1",
+        "signature": "683691a96f46b420718449463fea488f22b4a2b7250ed34de677478c782ab5f1"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/styled-components/index.d.ts": {
+        "version": "1ad20762468996594f1193f1a2c317c7f3441c3a7a14f65257944fb9f7128162",
+        "signature": "1ad20762468996594f1193f1a2c317c7f3441c3a7a14f65257944fb9f7128162"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yargs/index.d.ts": {
+        "version": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5",
+        "signature": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5"
+      },
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yup/index.d.ts": {
+        "version": "7cf42d55eb3a0362d64bd22166518d815ce13e7577de08faa0b0e5bbb7fc4bf7",
+        "signature": "7cf42d55eb3a0362d64bd22166518d815ce13e7577de08faa0b0e5bbb7fc4bf7"
+      }
+    },
+    "options": {
+      "target": 2,
+      "module": 6,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts",
+        "lib.esnext.d.ts"
+      ],
+      "moduleResolution": 2,
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "jsx": 2,
+      "skipLibCheck": true,
+      "outDir": "/Users/ed/Projects/modules/neo-react/packages/wallets/lib",
+      "rootDir": "/Users/ed/Projects/modules/neo-react/packages/wallets/src",
+      "configFilePath": "/Users/ed/Projects/modules/neo-react/packages/wallets/tsconfig.json"
+    },
+    "referencedMap": {
+      "/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/fa/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/plugins/index.tsx": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx",
+        "/users/ed/projects/modules/neo-react/packages/api/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/fa/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/wallet-menu/index.tsx": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/routes.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/routes.ts": [
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/plugins/index.tsx",
+        "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/wallet-menu/index.tsx",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/routes.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/local-wallet/index.tsx": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__core/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/events/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/buffer/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/base-x/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bs58/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/clipboard/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/crypto-js/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/elliptic/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/eslint-visitor-keys/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/glob/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/json-schema/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/loglevel/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/stack-utils/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/store/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/styled-components/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yargs/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yup/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/api/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/fa/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/plugins/index.tsx": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx": [
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/local-wallet/index.tsx": [
+        "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__core/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/events/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/buffer/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/base-x/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bs58/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/clipboard/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/crypto-js/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/elliptic/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/eslint-visitor-keys/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/glob/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/json-schema/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/loglevel/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/stack-utils/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/store/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/styled-components/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yargs/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yup/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts": [
+        "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+        "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "/usr/local/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/global.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/csstype/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/prop-types/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/domutils.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createbrowserhistory.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/createhashhistory.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/creatememoryhistory.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/locationutils.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/pathutils.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/history/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-router-dom/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/types/index.ts",
+      "/users/ed/projects/modules/neo-react/packages/api/lib/local-storage/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/api/lib/providers/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/api/lib/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconsmanifest.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconbase.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/iconcontext.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/lib/cjs/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/react-icons/fa/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/plugins/index.tsx",
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/types/lib/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__generator/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__traverse/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__template/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/babel__core/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/globals.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/assert.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/async_hooks.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/buffer.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/events/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/child_process.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/cluster.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/console.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/constants.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/crypto.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dgram.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/dns.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/domain.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/events.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/fs.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/http2.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/https.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/inspector.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/module.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/net.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/os.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/path.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/perf_hooks.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/process.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/punycode.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/querystring.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/readline.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/repl.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/stream.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/string_decoder.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/timers.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tls.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/trace_events.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/tty.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/url.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/util.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/v8.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/vm.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/worker_threads.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/zlib.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/base.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/util.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/globals.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/buffer/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/base-x/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bn.js/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/base-x/src/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/bs58/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/clipboard/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/crypto-js/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/elliptic/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/minimatch/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/glob/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-lib-report/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/istanbul-reports/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest-diff/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/types.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/jest-diff/build/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/jest/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/json-schema/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/loglevel/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/globals.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/legacy-properties.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/batchedbridge.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/devtools.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/launchscreen.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/react-native/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/stack-utils/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/store/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/styled-components/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yargs/index.d.ts",
+      "/users/ed/projects/modules/neo-react/node_modules/@types/yup/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/types/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/local-wallet/lib/index.d.ts",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/wallet-menu/index.tsx",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/routes.ts",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/index.tsx",
+      "/users/ed/projects/modules/neo-react/packages/wallets/src/scenes/local-wallet/index.tsx"
+    ]
+  },
+  "version": "3.5.2"
+}

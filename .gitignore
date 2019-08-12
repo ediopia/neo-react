@@ -1,0 +1,15 @@
+# Globally ignored folder names
+node_modules
+
+# Logs
+*.log
+
+# IDE specific
+.idea
+
+# Package stuff
+packages/**/lib
+
+# Typescript
+*.tsbuildinfo
+
