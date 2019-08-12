@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/ediopia/neo-react.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "ED <hieddiejung@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -33,5 +36,6 @@
     "o3-dapi-core": "^0.3.11",
     "o3-dapi-neo": "^0.6.0",
     "store": "^2.0.12"
-  }
+  },
+  "gitHead": "e6d642892e3f677486b8ffae705a87bcf2b1d4a9"
 }

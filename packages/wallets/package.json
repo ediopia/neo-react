@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/ediopia/neo-react.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "ED <hieddiejung@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -40,5 +43,6 @@
     "@neo-react/local-wallet": "^0.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.0"
-  }
+  },
+  "gitHead": "e6d642892e3f677486b8ffae705a87bcf2b1d4a9"
 }
