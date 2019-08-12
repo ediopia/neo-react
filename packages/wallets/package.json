@@ -1,6 +1,6 @@
 {
   "name": "@neo-react/wallets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React component that helps to handle NEO wallets and its keys for NEO dApp development",
   "keywords": [
     "neo",
@@ -28,7 +28,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@neo-react/local-wallet": "^0.0.0",
+    "@neo-react/local-wallet": "^0.0.1",
     "react-icons": "^3.7.0",
     "react-loading": "^2.0.3",
     "react-router-dom": "^5.0.1",
