@@ -1,11 +1,9 @@
-# `api`
+# `@neo-react/api`
 
-> TODO: description
+> Library that provides useful methods to develop NEO dApp.
 
 ## Usage
 
 ```
-const api = require('api');
-
-// TODO: DEMONSTRATE API
+import NeoReactAPI from "@neo-react/api";
 ```

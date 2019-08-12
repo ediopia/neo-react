@@ -1,11 +1,11 @@
-# NEO-React 👋
+# Neo-React 👋
 
-> React components and libraries that help dapps to interact with NEO blockchain <br/>
+> React components and libraries that helps dApps to interact with NEO blockchain <br/>
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 ## Overview
-This project aims to be a useful react components and library to make NEO dApp development easier for React devs.
+This project aims to be useful react components and library to make NEO dApp development easier.
 
 ## Included packages
 

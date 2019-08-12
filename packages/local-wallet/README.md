@@ -1,11 +1,27 @@
-# `local-wallet`
+# `@neo-react/local-wallet`
 
-> TODO: description
+> React component that helps to handle encrypting and decrypting NEO wallet keys.
 
 ## Usage
 
-```
-const localWallet = require('local-wallet');
+```typescript
+import React from "react";
+import LocalWallet from "@neo-react/local-wallet";
 
-// TODO: DEMONSTRATE API
+interface ConnectedWallet {
+  provider: string;
+  address: string;
+  encryptedKey?: string;
+  privateKey?: string;
+}
+
+const WalletModal = () => {
+  return(
+    <LocalWallet 
+      onConnected={(connectedWallet: ConnectedWallet) => {
+        /* Handle data using your own state manager */
+      }} 
+    />
+  )
+}
 ```
