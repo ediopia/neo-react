@@ -1,6 +1,6 @@
 {
   "name": "@neo-react/local-wallet",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React component that helps to handle encrypting and decrypting NEO wallet keys.",
   "keywords": [
     "neo",
