@@ -6,7 +6,7 @@ export declare const ADD_PENDING_TX = "app/invoke/ADD_PENDING_TX";
 export interface InvokerProviderValues {
     state: InvokerContextState;
     dispatch: {
-        openInvoker: (script?: InvokeScript, wallet?: ConnectedWallet) => void;
+        openInvoker: (script?: InvokeScript) => void;
         closeInvoker: () => void;
         connectWallet: (wallet: ConnectedWallet) => void;
         disconnectWallet: () => void;
@@ -36,7 +36,7 @@ export interface InvokeScript {
     scriptHash: string;
     fee?: number;
     encodeArgs?: boolean;
-    network?: 'MainNet' | 'TestNet' | 'PrivateNet';
+    network?: "MainNet" | "TestNet" | "PrivateNet";
     args: InvokeScriptArgs[];
 }
 export interface ReturnTx {
@@ -54,7 +54,6 @@ export interface InvokeScriptArgs {
 export interface OpenInvokerAction {
     type: typeof OPEN_INVOKER;
     payload: {
-        wallet?: ConnectedWallet;
         script?: InvokeScript;
     };
 }

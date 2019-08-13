@@ -21,15 +21,15 @@ const InvokerComponent = () => {
     return (react_1.default.createElement("div", { className: isInvokerActive ? "modal is-active" : "modal" },
         react_1.default.createElement("div", { className: "modal-background", onClick: dispatch.closeInvoker }),
         react_1.default.createElement("div", { className: "modal-content" },
-            react_1.default.createElement("div", { className: "box" },
-                !wallet || isLocalWalletWithoutPrivateKey ? (react_1.default.createElement(wallets_1.default, { wallet: wallet ? wallet : undefined, onConnected: wallet => {
-                        dispatch.connectWallet(wallet);
-                        dispatch.closeInvoker();
-                    } })) : null,
-                script ? (react_1.default.createElement(review_1.default, { wallet: state.wallet, script: state.script, onSubmit: tx => {
-                        dispatch.addPendingTx(tx);
-                        dispatch.closeInvoker();
-                    } })) : null)),
+            react_1.default.createElement("div", { className: "box" }, !wallet ? (react_1.default.createElement(wallets_1.default, { onConnected: wallet => {
+                    dispatch.connectWallet(wallet);
+                    dispatch.closeInvoker();
+                } })) : script ? (isLocalWalletWithoutPrivateKey ? (react_1.default.createElement(wallets_1.default, { wallet: wallet ? wallet : undefined, onConnected: wallet => {
+                    dispatch.connectWallet(wallet);
+                } })) : (react_1.default.createElement(review_1.default, { wallet: state.wallet, script: state.script, onSubmit: tx => {
+                    dispatch.addPendingTx(tx);
+                    dispatch.closeInvoker();
+                } }))) : null)),
         react_1.default.createElement("button", { onClick: dispatch.closeInvoker, className: "modal-close is-large", "aria-label": "close" })));
 };
 exports.default = InvokerComponent;

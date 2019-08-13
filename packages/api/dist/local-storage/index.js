@@ -31,21 +31,23 @@ const getPrivateKey = (encryptedKey, password) => __awaiter(this, void 0, void 0
     }
 });
 const setConnectedWallet = (wallet) => {
-    if (wallet.privateKey) {
-        delete wallet.privateKey;
-    }
-    store_1.default.set("CURRENT_WALLET", wallet);
+    const newWallet = {
+        provider: wallet.provider,
+        encryptedKey: wallet.encryptedKey,
+        address: wallet.address,
+    };
+    store_1.default.set("CURRENT_WALLET", newWallet);
     const savedWallets = getLocalWalletList();
     // Add in savedWalletList in local storage
     let i = 0;
     savedWallets.forEach((item) => {
-        if (item.encryptedKey === wallet.encryptedKey) {
+        if (item.encryptedKey === newWallet.encryptedKey) {
             i += 1;
         }
     });
-    if (i === 0 && wallet.address && wallet.encryptedKey) {
+    if (i === 0 && newWallet.address && newWallet.encryptedKey) {
         // @ts-ignore
-        store_1.default.push("SAVED_WALLETS", wallet);
+        store_1.default.push("SAVED_WALLETS", newWallet);
     }
 };
 const removeConnectedWallet = () => {

@@ -14,12 +14,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const neon_js_1 = __importDefault(require("@cityofzion/neon-js"));
 const api_1 = __importDefault(require("@neo-react/api"));
 const types_1 = require("./types");
-exports.openInvoker = (script, wallet) => {
+exports.openInvoker = (script) => {
     return {
         type: types_1.OPEN_INVOKER,
         payload: {
             script: script,
-            wallet: wallet,
         },
     };
 };

@@ -30,7 +30,9 @@ const ContextComponent = ({ children, useLocalStorage }) => {
     return (react_1.default.createElement(InvokerContext.Provider, { value: {
             state: Object.assign({}, state),
             dispatch: {
-                openInvoker: (script, wallet) => dispatch(actions_1.openInvoker(script, wallet ? wallet : state.wallet)),
+                openInvoker: (script) => {
+                    dispatch(actions_1.openInvoker(script));
+                },
                 closeInvoker: () => dispatch(actions_1.closeInvoker()),
                 connectWallet: (wallet) => dispatch(actions_1.connectWallet(wallet, useLocalStorage)),
                 disconnectWallet: () => dispatch(actions_1.disconnectWallet(useLocalStorage)),

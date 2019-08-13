@@ -4,7 +4,7 @@ const types_1 = require("./types");
 exports.reducer = (state, action) => {
     switch (action.type) {
         case types_1.OPEN_INVOKER:
-            return Object.assign({}, state, { isInvokerActive: true, wallet: action.payload.wallet, script: action.payload.script });
+            return Object.assign({}, state, { isInvokerActive: true, script: action.payload.script });
         case types_1.CLOSE_INVOKER:
             return Object.assign({}, state, { isInvokerActive: false, script: undefined });
         case types_1.CONNECT_WALLET:
@@ -12,7 +12,7 @@ exports.reducer = (state, action) => {
         case types_1.DISCONNECT_WALLET:
             return Object.assign({}, state, { wallet: undefined });
         case types_1.ADD_PENDING_TX:
-            return Object.assign({}, state, { pendingTxidList: [...state.pendingTxidList, action.payload.tx], wallet: undefined });
+            return Object.assign({}, state, { pendingTxidList: [...state.pendingTxidList, action.payload.tx] });
         default:
             return state;
     }
