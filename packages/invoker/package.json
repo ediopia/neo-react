@@ -38,7 +38,8 @@
   },
   "peerDependencies": {
     "react": "^16.8",
-    "react-dom": "^16.8"
+    "react-dom": "^16.8",
+    "@neo-react/wallets": "^0.0.7"
   },
   "dependencies": {
     "@cityofzion/neon-js": "^4.7.0",

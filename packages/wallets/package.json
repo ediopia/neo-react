@@ -47,7 +47,9 @@
   },
   "peerDependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.8.0",
+    "@neo-react/api": "^0.0.7",
+    "@neo-react/local-wallet": "^0.0.7"
   },
   "gitHead": "5a24b011c1861012365911c4b790b7ddf685e5a7"
 }
