@@ -8,24 +8,25 @@
 This project aims to be useful react components and library to make NEO dApp development easier.
 
 ## Included packages
-
+>Built as `esm` and `cjs`
 - **@neo-react/invoker**
   - React application that helps submitting a new transaction in order to invoke smart contracts.
-  - Built as `esm`
   - Uses the `@neo-react/wallets` package (also inside monorepo).
 
 - **@neo-react/wallets**
   - React application that helps to handle NEO wallets and its keys for NEO dApp development.
-  - Built as `esm`
   - Uses the `@neo-react/local-wallet` package (also inside monorepo).
 
 - **@neo-react/local-wallet**
   - React application that helps to handle encrypting and decrypting NEO wallet keys.
-  - Built as `esm`
   
 - **@neo-react/api**
   - Library that provides useful methods to develop NEO dApp.
-  - Built as `esm`
+  
+
+## Style
+All packages use [Bulma](https://bulma.io/documentation/overview/start/). <br/>
+Use [CDN file](https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css) or import css from npm package in your top react component.
   
 ## Install
 
