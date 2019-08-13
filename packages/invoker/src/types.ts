@@ -1,13 +1,13 @@
-export const OPEN_INVOKER = 'app/invoke/OPEN_INVOKER';
-export const CLOSE_INVOKER = 'app/invoke/CLOSE_INVOKER';
-export const CONNECT_WALLET = 'app/invoke/CONNECT_WALLET';
-export const DISCONNECT_WALLET = 'app/invoke/DISCONNECT_WALLET';
-export const ADD_PENDING_TX = 'app/invoke/ADD_PENDING_TX';
+export const OPEN_INVOKER = "app/invoke/OPEN_INVOKER";
+export const CLOSE_INVOKER = "app/invoke/CLOSE_INVOKER";
+export const CONNECT_WALLET = "app/invoke/CONNECT_WALLET";
+export const DISCONNECT_WALLET = "app/invoke/DISCONNECT_WALLET";
+export const ADD_PENDING_TX = "app/invoke/ADD_PENDING_TX";
 
 export interface InvokerProviderValues {
   state: InvokerContextState;
   dispatch: {
-    openInvoker: (script?: InvokeScript, wallet?: ConnectedWallet) => void;
+    openInvoker: (script?: InvokeScript) => void;
     closeInvoker: () => void;
     connectWallet: (wallet: ConnectedWallet) => void;
     disconnectWallet: () => void;
@@ -40,7 +40,7 @@ export interface InvokeScript {
   scriptHash: string;
   fee?: number;
   encodeArgs?: boolean;
-  network?: 'MainNet' | 'TestNet' | 'PrivateNet';
+  network?: "MainNet" | "TestNet" | "PrivateNet";
   args: InvokeScriptArgs[];
 }
 
@@ -62,7 +62,6 @@ export interface InvokeScriptArgs {
 export interface OpenInvokerAction {
   type: typeof OPEN_INVOKER;
   payload: {
-    wallet?: ConnectedWallet;
     script?: InvokeScript;
   };
 }

@@ -34,8 +34,9 @@ const ContextComponent = ({ children, useLocalStorage }: InvokerProps) => {
           ...state,
         },
         dispatch: {
-          openInvoker: (script?: InvokeScript, wallet?: ConnectedWallet) =>
-            dispatch(openInvoker(script, wallet ? wallet : state.wallet)),
+          openInvoker: (script?: InvokeScript) => {
+            dispatch(openInvoker(script));
+          },
           closeInvoker: () => dispatch(closeInvoker()),
           connectWallet: (wallet: ConnectedWallet) =>
             dispatch(connectWallet(wallet, useLocalStorage)),

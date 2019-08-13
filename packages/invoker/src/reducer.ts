@@ -6,7 +6,7 @@ import {
   InvokeActionTypes,
   InvokerContextState,
   OPEN_INVOKER,
-} from './types';
+} from "./types";
 
 export const reducer = (
   state: InvokerContextState,
@@ -17,7 +17,6 @@ export const reducer = (
       return {
         ...state,
         isInvokerActive: true,
-        wallet: action.payload.wallet,
         script: action.payload.script,
       };
     case CLOSE_INVOKER:
@@ -42,7 +41,6 @@ export const reducer = (
       return {
         ...state,
         pendingTxidList: [...state.pendingTxidList, action.payload.tx],
-        wallet: undefined,
       };
 
     default:

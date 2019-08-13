@@ -7,7 +7,6 @@ import Wallets from "@neo-react/wallets";
 const InvokerComponent = () => {
   const { state, dispatch } = useContext(InvokerContext);
   const { wallet, script, isInvokerActive } = state;
-
   let isLocalWalletWithoutPrivateKey =
     wallet && Object.keys(wallet).length > 0 && wallet.provider === "LOCAL" && !wallet.privateKey;
   return (
@@ -16,24 +15,31 @@ const InvokerComponent = () => {
       <div className="modal-background" onClick={dispatch.closeInvoker} />
       <div className="modal-content">
         <div className="box">
-          {!wallet || isLocalWalletWithoutPrivateKey ? (
+          {!wallet ? (
             <Wallets
-              wallet={wallet ? wallet : undefined}
               onConnected={wallet => {
                 dispatch.connectWallet(wallet);
                 dispatch.closeInvoker();
               }}
             />
-          ) : null}
-          {script ? (
-            <Review
-              wallet={state.wallet as ConnectedWallet}
-              script={state.script as InvokeScript}
-              onSubmit={tx => {
-                dispatch.addPendingTx(tx);
-                dispatch.closeInvoker();
-              }}
-            />
+          ) : script ? (
+            isLocalWalletWithoutPrivateKey ? (
+              <Wallets
+                wallet={wallet ? wallet : undefined}
+                onConnected={wallet => {
+                  dispatch.connectWallet(wallet);
+                }}
+              />
+            ) : (
+              <Review
+                wallet={state.wallet as ConnectedWallet}
+                script={state.script as InvokeScript}
+                onSubmit={tx => {
+                  dispatch.addPendingTx(tx);
+                  dispatch.closeInvoker();
+                }}
+              />
+            )
           ) : null}
         </div>
       </div>

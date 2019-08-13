@@ -33,23 +33,24 @@ const getPrivateKey = async (encryptedKey: string, password: string) => {
 };
 
 const setConnectedWallet = (wallet: ConnectedWallet) => {
-  if (wallet.privateKey) {
-    delete wallet.privateKey;
-  }
-
-  store.set("CURRENT_WALLET", wallet);
+  const newWallet = {
+    provider: wallet.provider,
+    encryptedKey: wallet.encryptedKey,
+    address: wallet.address,
+  };
+  store.set("CURRENT_WALLET", newWallet);
 
   const savedWallets = getLocalWalletList();
   // Add in savedWalletList in local storage
   let i = 0;
   savedWallets.forEach((item: WalletInLocalStorage) => {
-    if (item.encryptedKey === wallet.encryptedKey) {
+    if (item.encryptedKey === newWallet.encryptedKey) {
       i += 1;
     }
   });
-  if (i === 0 && wallet.address && wallet.encryptedKey) {
+  if (i === 0 && newWallet.address && newWallet.encryptedKey) {
     // @ts-ignore
-    store.push("SAVED_WALLETS", wallet);
+    store.push("SAVED_WALLETS", newWallet);
   }
 };
 

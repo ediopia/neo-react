@@ -16,12 +16,11 @@ import {
   ReturnTx,
 } from "./types";
 
-export const openInvoker = (script?: InvokeScript, wallet?: ConnectedWallet): OpenInvokerAction => {
+export const openInvoker = (script?: InvokeScript): OpenInvokerAction => {
   return {
     type: OPEN_INVOKER,
     payload: {
       script: script,
-      wallet: wallet,
     },
   };
 };
