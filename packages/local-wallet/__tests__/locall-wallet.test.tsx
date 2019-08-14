@@ -1,14 +1,11 @@
 import React from "react";
 import { render, fireEvent, cleanup } from "@testing-library/react";
-import Invoker from "../dist";
+import LocalWallet from "../src";
 
 // automatically unmount and cleanup DOM after the test is finished.
 afterEach(cleanup);
 
-it("Render Invoker", () => {
-  const { queryByLabelText, getByLabelText } = render(
-    <Invoker>
-      <div>Component</div>
-    </Invoker>,
-  );
+
+it("Render Local wallet", () => {
+  const { queryByLabelText, getByLabelText } = render(<LocalWallet onConnected={wallet => {}} />);
 });

@@ -2,9 +2,19 @@ import React from "react";
 import { Form as FormikForm, FormikProps } from "formik";
 import { Nep2States } from "../index";
 import PasswordInput from "../../../components/password-input";
+import DisplayError from "../../../components/display-error";
 
-export default (props: FormikProps<Nep2States>) => {
-  const { touched, errors, isSubmitting, values, setFieldValue, submitForm } = props;
+const ImportNep2 = (props: FormikProps<Nep2States>) => {
+  const {
+    touched,
+    errors,
+    isSubmitting,
+    values,
+    setFieldValue,
+    submitForm,
+    status,
+    setStatus,
+  } = props;
   const { encryptedKey, password } = values;
   const isValidSubmit = encryptedKey && password;
   return (
@@ -34,7 +44,11 @@ export default (props: FormikProps<Nep2States>) => {
           <div className="help is-danger">{errors.password}</div>
         )}
       </div>
-
+      {status && status.error ? (
+        <DisplayError message={status.error} onClose={() => setStatus(undefined)} />
+      ) : (
+        false
+      )}
       <button
         type="submit"
         disabled={!isValidSubmit}
@@ -45,3 +59,5 @@ export default (props: FormikProps<Nep2States>) => {
     </FormikForm>
   );
 };
+
+export default ImportNep2;

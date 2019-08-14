@@ -3,9 +3,19 @@ import { Form as FormikForm, FormikProps } from "formik";
 import { Nep2States } from "../../import-nep2";
 import { LocalWalletProps } from "../../../types";
 import PasswordInput from "../../../components/password-input";
+import DisplayError from "../../../components/display-error";
 
 const Form = (props: LocalWalletProps & FormikProps<Nep2States>) => {
-  const { savedWallets = [], errors, isSubmitting, values, setFieldValue, submitForm } = props;
+  const {
+    savedWallets = [],
+    errors,
+    isSubmitting,
+    values,
+    setFieldValue,
+    submitForm,
+    status,
+    setStatus,
+  } = props;
   return (
     <FormikForm>
       <div className="field">
@@ -35,7 +45,16 @@ const Form = (props: LocalWalletProps & FormikProps<Nep2States>) => {
           onChange={val => setFieldValue("password", val)}
         />
       </div>
-      <button type="submit" className={`button is-link ${isSubmitting ? "is-loading" : ""}`}>
+      {status && status.error ? (
+        <DisplayError message={status.error} onClose={() => setStatus(undefined)} />
+      ) : (
+        false
+      )}
+      <button
+        disabled={!values.password}
+        type="submit"
+        className={`button is-link ${isSubmitting ? "is-loading" : ""}`}
+      >
         Open
       </button>
     </FormikForm>

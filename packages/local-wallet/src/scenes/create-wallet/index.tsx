@@ -4,7 +4,6 @@ import { withFormik } from "formik";
 import Form from "./components/form";
 import * as Yup from "yup";
 import { ConnectedWallet } from "../../types";
-import { toast } from "react-toastify";
 export interface Props {
   onConnected: (account: ConnectedWallet) => void;
 }
@@ -26,7 +25,7 @@ const CreateWallet = withFormik<Props, CreateWalletStates>({
     };
   },
   validationSchema: ValidateSchema,
-  handleSubmit: (values: CreateWalletStates, { setFieldValue, setSubmitting }) => {
+  handleSubmit: (values: CreateWalletStates, { setFieldValue, setSubmitting, setStatus }) => {
     const account = Neon.create.account("");
     account
       .encrypt(values.password)
@@ -41,10 +40,9 @@ const CreateWallet = withFormik<Props, CreateWalletStates>({
       })
       .catch(e => {
         setSubmitting(false);
-        toast.error(e.message);
-        // setStatus({
-        //   errorMsg: e.message,
-        // });
+        setStatus({
+          error: e.message,
+        });
       });
   },
 })(Form);

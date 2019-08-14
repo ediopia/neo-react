@@ -5,7 +5,6 @@ import Form from "./components/form";
 import * as Yup from "yup";
 import { Nep2States } from "../import-nep2";
 import { LocalWalletProps } from "../../types";
-import { toast } from "react-toastify";
 
 const ValidateSchema = Yup.object().shape({
   password: Yup.string().required("Required"),
@@ -22,8 +21,7 @@ const SavedWallets = withFormik<LocalWalletProps, Nep2States>({
     };
   },
   validationSchema: ValidateSchema,
-  handleSubmit: (values: Nep2States, { props, setSubmitting }) => {
-
+  handleSubmit: (values: Nep2States, { props, setSubmitting, setStatus }) => {
     const account = Neon.create.account(values.encryptedKey);
     account
       .decrypt(values.password)
@@ -38,7 +36,7 @@ const SavedWallets = withFormik<LocalWalletProps, Nep2States>({
       })
       .catch(e => {
         setSubmitting(false);
-        toast.error(e.message);
+        setStatus({ error: e.message });
       });
   },
 })(Form);

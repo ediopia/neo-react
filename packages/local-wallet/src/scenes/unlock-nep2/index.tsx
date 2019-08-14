@@ -3,7 +3,6 @@ import Neon from "@cityofzion/neon-js";
 import { withFormik, FormikErrors } from "formik";
 import Form from "./components/form";
 import { ConnectedWallet } from "../../types";
-import { toast } from "react-toastify";
 
 export interface Nep2States {
   encryptedKey: string;
@@ -40,7 +39,7 @@ const UnlockNep2 = withFormik<UnlockNep2Props, Nep2States>({
     }
     return errors;
   },
-  handleSubmit: (values: Nep2States, { props, setSubmitting }) => {
+  handleSubmit: (values: Nep2States, { props, setSubmitting, setStatus }) => {
     const account = Neon.create.account(values.encryptedKey);
     account
       .decrypt(values.password)
@@ -55,7 +54,9 @@ const UnlockNep2 = withFormik<UnlockNep2Props, Nep2States>({
       })
       .catch(e => {
         setSubmitting(false);
-        toast.error(e.message);
+        setStatus({
+          error: e.message,
+        });
       });
   },
 })(Form);

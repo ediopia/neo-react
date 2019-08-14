@@ -1,10 +1,10 @@
 import React from "react";
 import { render, fireEvent, cleanup } from "@testing-library/react";
-import LocalWallet from "../dist";
+import Wallets from "../src";
 
 // automatically unmount and cleanup DOM after the test is finished.
 afterEach(cleanup);
 
-it("Render Local wallet", () => {
-  const { queryByLabelText, getByLabelText } = render(<LocalWallet onConnected={wallet => console.log(wallet)} />);
+it("Render Wallets", () => {
+  const { queryByLabelText, getByLabelText } = render(<Wallets />);
 });

@@ -22,8 +22,11 @@ const PasswordInput = ({ value, onChange, onKeyDown, isLoading }: PasswordInputP
         type={showPassword ? "text" : "password"}
         placeholder="Password"
         value={value}
-        onChange={e => onChange(e.target.value)}
+        onChange={e => {
+          onChange(e.target.value);
+        }}
       />
+      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions */}
       <span
         onClick={() => setVisible(!showPassword)}
         className="icon is-right"

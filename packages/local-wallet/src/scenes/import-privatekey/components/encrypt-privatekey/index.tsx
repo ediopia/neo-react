@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Neon from "@cityofzion/neon-js";
-import { toast } from "react-toastify";
 import PasswordInput from "../../../../components/password-input";
 import { ConnectedWallet } from "../../../../types";
+import DisplayError from "../../../../components/display-error";
 
 interface NewWalletProps extends ConnectedWallet {
   password: string;
@@ -16,6 +16,7 @@ interface VerifyPrivateKeyProps {
 const EncryptPrivateKey = ({ privateKey, onEncrypt }: VerifyPrivateKeyProps) => {
   const [password, setPassword] = useState("");
   const [isLoading, setLoading] = useState(false);
+  const [error, setError] = useState();
   const encrypt = () => {
     setLoading(true);
     const account = Neon.create.account(privateKey);
@@ -32,7 +33,7 @@ const EncryptPrivateKey = ({ privateKey, onEncrypt }: VerifyPrivateKeyProps) => 
         });
       })
       .catch(error => {
-        toast.error(error.message);
+        setError(error.message);
         setLoading(false);
       });
   };
@@ -59,7 +60,9 @@ const EncryptPrivateKey = ({ privateKey, onEncrypt }: VerifyPrivateKeyProps) => 
         </ul>
       </div>
       <hr />
+      {error ? <DisplayError message={error} onClose={() => setError(undefined)} /> : false}
       <button
+        disabled={!password}
         onClick={encrypt}
         type="button"
         className={`button is-link ${isLoading ? "is-loading" : ""}`}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Neon from "@cityofzion/neon-js";
-import { toast } from "react-toastify";
+import DisplayError from "../../../../components/display-error";
 
 interface VerifyPrivateKeyProps {
   onVerify: (privateKey: string) => void;
@@ -8,12 +8,13 @@ interface VerifyPrivateKeyProps {
 
 const VerifyPrivateKey = ({ onVerify }: VerifyPrivateKeyProps) => {
   const [privateKey, setPrivateKey] = useState("");
+  const [error, setError] = useState();
   const verifyPrivatekey = () => {
     if (privateKey) {
       if (Neon.is.privateKey(privateKey) || Neon.is.wif(privateKey)) {
         onVerify(privateKey);
       } else {
-        toast.error("Please check your private key. It it not a valid type.");
+        setError("Please check your private key. It it not a valid type.");
       }
     }
   };
@@ -37,6 +38,7 @@ const VerifyPrivateKey = ({ onVerify }: VerifyPrivateKeyProps) => {
           }}
         />
       </div>
+      {error ? <DisplayError message={error} onClose={() => setError(undefined)} /> : false}
       <button onClick={verifyPrivatekey} disabled={!privateKey} className={`button is-link`}>
         Verify your private key
       </button>
