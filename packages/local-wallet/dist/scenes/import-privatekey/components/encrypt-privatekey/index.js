@@ -12,11 +12,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const neon_js_1 = __importDefault(require("@cityofzion/neon-js"));
-const react_toastify_1 = require("react-toastify");
 const password_input_1 = __importDefault(require("../../../../components/password-input"));
+const display_error_1 = __importDefault(require("../../../../components/display-error"));
 const EncryptPrivateKey = ({ privateKey, onEncrypt }) => {
     const [password, setPassword] = react_1.useState("");
     const [isLoading, setLoading] = react_1.useState(false);
+    const [error, setError] = react_1.useState();
     const encrypt = () => {
         setLoading(true);
         const account = neon_js_1.default.create.account(privateKey);
@@ -33,7 +34,7 @@ const EncryptPrivateKey = ({ privateKey, onEncrypt }) => {
             });
         })
             .catch(error => {
-            react_toastify_1.toast.error(error.message);
+            setError(error.message);
             setLoading(false);
         });
     };
@@ -50,7 +51,8 @@ const EncryptPrivateKey = ({ privateKey, onEncrypt }) => {
                 react_1.default.createElement("li", null, "Password must be at least 6 characters long."),
                 react_1.default.createElement("li", null, "You will need this password to unlock your wallet."))),
         react_1.default.createElement("hr", null),
-        react_1.default.createElement("button", { onClick: encrypt, type: "button", className: `button is-link ${isLoading ? "is-loading" : ""}` }, "Encrypt!")));
+        error ? react_1.default.createElement(display_error_1.default, { message: error, onClose: () => setError(undefined) }) : false,
+        react_1.default.createElement("button", { disabled: !password, onClick: encrypt, type: "button", className: `button is-link ${isLoading ? "is-loading" : ""}` }, "Encrypt!")));
 };
 exports.default = EncryptPrivateKey;
 //# sourceMappingURL=index.js.map

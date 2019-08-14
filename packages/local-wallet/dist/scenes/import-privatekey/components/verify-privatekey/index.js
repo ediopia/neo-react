@@ -12,16 +12,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const neon_js_1 = __importDefault(require("@cityofzion/neon-js"));
-const react_toastify_1 = require("react-toastify");
+const display_error_1 = __importDefault(require("../../../../components/display-error"));
 const VerifyPrivateKey = ({ onVerify }) => {
     const [privateKey, setPrivateKey] = react_1.useState("");
+    const [error, setError] = react_1.useState();
     const verifyPrivatekey = () => {
         if (privateKey) {
             if (neon_js_1.default.is.privateKey(privateKey) || neon_js_1.default.is.wif(privateKey)) {
                 onVerify(privateKey);
             }
             else {
-                react_toastify_1.toast.error("Please check your private key. It it not a valid type.");
+                setError("Please check your private key. It it not a valid type.");
             }
         }
     };
@@ -33,6 +34,7 @@ const VerifyPrivateKey = ({ onVerify }) => {
                         verifyPrivatekey();
                     }
                 } })),
+        error ? react_1.default.createElement(display_error_1.default, { message: error, onClose: () => setError(undefined) }) : false,
         react_1.default.createElement("button", { onClick: verifyPrivatekey, disabled: !privateKey, className: `button is-link` }, "Verify your private key")));
 };
 exports.default = VerifyPrivateKey;

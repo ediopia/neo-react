@@ -4,7 +4,17 @@
     "module": "esNext",
     "strict": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "skipLibCheck": true
   },
   "exclude": ["packages/**/lib/**/*"]
 }

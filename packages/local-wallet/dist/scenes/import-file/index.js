@@ -11,47 +11,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
-const import_nep2_1 = __importDefault(require("../import-nep2"));
-const react_toastify_1 = require("react-toastify");
+const import_button_1 = __importDefault(require("./components/import-button"));
+const saved_wallets_1 = __importDefault(require("../saved-wallets"));
 const ImportFile = (props) => {
     const { onConnected } = props;
-    const [encryptedKey, setEncryptedKey] = react_1.useState("");
-    const [address, setAddress] = react_1.useState("");
-    const handleImportKeyfile = (e) => {
-        try {
-            const reader = new FileReader();
-            reader.onload = (event) => {
-                const jsonObj = JSON.parse(event.target.result);
-                if (jsonObj.key) {
-                    setEncryptedKey(jsonObj.key);
-                    setAddress(jsonObj.address);
-                }
-                // TODO::Need to make better importing system
-                if (jsonObj.accounts && jsonObj.accounts.length > 0) {
-                    setEncryptedKey(jsonObj.accounts[0].key);
-                    setAddress(jsonObj.accounts[0].address);
-                }
-            };
-            if (e.target.files) {
-                if (e.target.files.length > 0) {
-                    reader.readAsText(e.target.files[0]);
-                }
-            }
-            return false;
-        }
-        catch (e) {
-            react_toastify_1.toast.error(e.message);
-        }
-    };
-    return (react_1.default.createElement(react_1.default.Fragment, null, encryptedKey ? (react_1.default.createElement(import_nep2_1.default, { onConnected: onConnected, wallet: {
-            provider: "LOCAL",
-            encryptedKey,
-            address,
-        } })) : (react_1.default.createElement("div", { className: "file" },
-        react_1.default.createElement("label", { className: "file-label" },
-            react_1.default.createElement("input", { onChange: handleImportKeyfile, className: "file-input", type: "file", name: "resume", accept: ".json,application/json" }),
-            react_1.default.createElement("span", { className: "file-cta button is-light" },
-                react_1.default.createElement("span", { className: "file-label" }, "Select wallet file")))))));
+    const [wallets, setWallets] = react_1.useState();
+    return (react_1.default.createElement(react_1.default.Fragment, null, wallets && wallets.length ? (react_1.default.createElement(saved_wallets_1.default, { onConnected: onConnected, savedWallets: wallets })) : (react_1.default.createElement(import_button_1.default, { onImport: setWallets }))));
 };
 exports.default = ImportFile;
 //# sourceMappingURL=index.js.map

@@ -16,7 +16,9 @@ const PasswordInput = ({ value, onChange, onKeyDown, isLoading }) => {
                 if (e.keyCode === 13 && !isLoading) {
                     onKeyDown();
                 }
-            }, className: "input", type: showPassword ? "text" : "password", placeholder: "Password", value: value, onChange: e => onChange(e.target.value) }),
+            }, className: "input", type: showPassword ? "text" : "password", placeholder: "Password", value: value, onChange: e => {
+                onChange(e.target.value);
+            } }),
         react_1.default.createElement("span", { onClick: () => setVisible(!showPassword), className: "icon is-right", style: { pointerEvents: "auto", zIndex: 0 } }, showPassword ? react_1.default.createElement(fa_1.FaEyeSlash, null) : react_1.default.createElement(fa_1.FaEye, null))));
 };
 exports.default = PasswordInput;

@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const neon_js_1 = __importDefault(require("@cityofzion/neon-js"));
 const formik_1 = require("formik");
 const form_1 = __importDefault(require("./components/form"));
-const react_toastify_1 = require("react-toastify");
 const UnlockNep2 = formik_1.withFormik({
     mapPropsToValues: props => {
         return {
@@ -28,7 +27,7 @@ const UnlockNep2 = formik_1.withFormik({
         }
         return errors;
     },
-    handleSubmit: (values, { props, setSubmitting }) => {
+    handleSubmit: (values, { props, setSubmitting, setStatus }) => {
         const account = neon_js_1.default.create.account(values.encryptedKey);
         account
             .decrypt(values.password)
@@ -43,7 +42,9 @@ const UnlockNep2 = formik_1.withFormik({
         })
             .catch(e => {
             setSubmitting(false);
-            react_toastify_1.toast.error(e.message);
+            setStatus({
+                error: e.message,
+            });
         });
     },
 })(form_1.default);

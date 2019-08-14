@@ -14,7 +14,6 @@ const neon_js_1 = __importDefault(require("@cityofzion/neon-js"));
 const formik_1 = require("formik");
 const form_1 = __importDefault(require("./components/form"));
 const Yup = __importStar(require("yup"));
-const react_toastify_1 = require("react-toastify");
 const ValidateSchema = Yup.object().shape({
     password: Yup.string().required("Required"),
 });
@@ -28,7 +27,7 @@ const SavedWallets = formik_1.withFormik({
         };
     },
     validationSchema: ValidateSchema,
-    handleSubmit: (values, { props, setSubmitting }) => {
+    handleSubmit: (values, { props, setSubmitting, setStatus }) => {
         const account = neon_js_1.default.create.account(values.encryptedKey);
         account
             .decrypt(values.password)
@@ -43,7 +42,7 @@ const SavedWallets = formik_1.withFormik({
         })
             .catch(e => {
             setSubmitting(false);
-            react_toastify_1.toast.error(e.message);
+            setStatus({ error: e.message });
         });
     },
 })(form_1.default);

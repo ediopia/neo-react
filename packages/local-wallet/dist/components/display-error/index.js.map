@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/components/display-error/index.tsx"],"names":[],"mappings":";;;;;AAAA,kDAA0B;AAO1B,MAAM,YAAY,GAAG,CAAC,EAAE,OAAO,EAAE,OAAO,EAAqB,EAAE,EAAE;IAC/D,OAAO,CACL,uCAAK,SAAS,EAAC,wBAAwB;QACrC,0CAAQ,OAAO,EAAE,OAAO,EAAE,SAAS,EAAC,QAAQ,GAAG;QAC9C,OAAO,CACJ,CACP,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,YAAY,CAAC"}
