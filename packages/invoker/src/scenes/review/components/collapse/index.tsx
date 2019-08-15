@@ -21,6 +21,7 @@ const ReviewInvokeScript = ({ script }: ReviewInvokeScriptProps) => {
             <div>Invoke details</div>
           </div>
         }
+        lazyRender={true}
       >
         <p style={{ padding: "10px" }} className="content is-small">
           Contract: {script.scriptHash}
@@ -28,8 +29,8 @@ const ReviewInvokeScript = ({ script }: ReviewInvokeScriptProps) => {
           Operation: {script.operation}
           <br />
           Args: <br />
-          {script.args.map(s => (
-            <span key={s.value}>
+          {script.args.map((s, i) => (
+            <span key={`arg-${i}`}>
               {s.value}
               <br />
             </span>

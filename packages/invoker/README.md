@@ -8,8 +8,10 @@
 - Support multiple wallets.
 - Support local storage (optional).
 
-## Usage
+## Demo
+[Click](https://codesandbox.io/s/neo-reactinvoker-mfvx8)
 
+## Usage
 ```
 import React from "react";
 import NeoInvoker, { from "@neo-react/invoker";
@@ -22,18 +24,55 @@ const MyDapp = () => {
   )
 }
 ```
-Then
+Then use context in child components
 ```
-import React, { useContext } from "react";
-import { InvokerContext } from "@neo-react/invoker";
-
-const Play = () => {
+const SubComponent = () => {
   const { state, dispatch } = useContext(InvokerContext);
+  /*
+    Invoke using states and dispatches using your own way
+  */
   return (
     <RenderState
       {...state}
     />
   );
 };
-export default Play;
+```
+
+## Api
+
+| Props | Type | Default | Description |
+| --- | --- | --- | --- |
+| useLocalStorage | boolean | false | It saves provider, encryptedKey and address key in user's local storage when they connect their wallet.   
+
+## Context
+
+### State
+
+| Key | Description |
+| --- | --- |
+| wallet | Connected wallet keys |
+
+### Dispatch
+
+| Method | Args| Description |
+| --- | --- | --- |
+| dispatch.openInvoker() | script: Script | It opens invoke confirmation modal. |
+| dispatch.disconnectWallet() | | It remove the connected wallet from its state. |
+
+```
+interface Script {
+  transfer?: {
+    from: string;
+    to: string;
+    amount: number;
+    symbol: string;
+  };
+  operation: string;
+  scriptHash: string;
+  fee?: number;
+  encodeArgs?: boolean;
+  network?: "MainNet" | "TestNet" | "PrivateNet";
+  args: InvokeScriptArgs[];
+}
 ```
