@@ -1,7 +1,7 @@
 # Neo-React 👋
 
 > React components and libraries that helps dApps to interact with NEO blockchain <br/>
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 ## Overview
