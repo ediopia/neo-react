@@ -8,6 +8,9 @@
 - Connect with NOS client.
 - Local wallet that provides encrypting and decrypting with wallet keys.
 
+## Demo
+[Click](https://codesandbox.io/s/neo-reactwallets-8d4hw)
+
 ## Usage
 
 ```typescript
@@ -43,3 +46,12 @@ const WalletModal = () => {
   );
 };
 ```
+
+## Api
+
+| Props | Type | Description |
+| --- | ---  | --- |
+| savedWallets | array | It passes encrypted key list to local wallet.
+| onConnected | func | It returns wallet data after it is connected.
+
+

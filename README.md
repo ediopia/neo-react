@@ -12,13 +12,19 @@ This project aims to be useful react components and library to make NEO dApp dev
 - **@neo-react/invoker**
   - React application that helps submitting a new transaction in order to invoke smart contracts.
   - Uses the `@neo-react/wallets` package (also inside monorepo).
+  - [Docs](https://github.com/ediopia/neo-react/tree/master/packages/invoker)
+  - [Demo](https://codesandbox.io/s/neo-reactinvoker-mfvx8)
 
 - **@neo-react/wallets**
   - React application that helps to handle NEO wallets and its keys for NEO dApp development.
   - Uses the `@neo-react/local-wallet` package (also inside monorepo).
+  - [Docs](https://github.com/ediopia/neo-react/tree/master/packages/wallets)
+  - [Demo](https://codesandbox.io/s/neo-reactwallets-8d4hw)
 
 - **@neo-react/local-wallet**
   - React application that helps to handle encrypting and decrypting NEO wallet keys.
+  - [Docs](https://github.com/ediopia/neo-react/tree/master/packages/local-wallet)
+  - [Demo](https://codesandbox.io/s/neo-reactlocal-wallet-yfcvd)
   
 - **@neo-react/api**
   - Library that provides useful methods to develop NEO dApp.

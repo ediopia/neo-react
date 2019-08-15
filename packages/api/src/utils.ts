@@ -1,14 +1,14 @@
-import { u, wallet, api } from '@cityofzion/neon-js';
+import { u, wallet, api } from "@cityofzion/neon-js";
 
-export const getRpcEndpoint = async (network: string = 'MainNet') => {
-  const provider = new api.neoscan.instance('MainNet');
+export const getRpcEndpoint = async (network: string = "MainNet") => {
+  const provider = new api.neoscan.instance("MainNet");
   return await provider
     .getRPCEndpoint()
     .then(endpoint => {
       return endpoint;
     })
     .catch(e => {
-      return 'http://node.ftwcoin.io:10332';
+      return "http://node.ftwcoin.io:10332";
     });
 };
 
@@ -20,13 +20,13 @@ export const convertScriptToParams = (args: InvokeScriptArgs[]) => {
   return args.map(arg => {
     const { type, value } = arg;
     switch (type) {
-      case 'String':
+      case "String":
         return u.str2hexstring(value);
-      case 'Address':
+      case "Address":
         return u.reverseHex(wallet.getScriptHashFromAddress(value));
-      case 'ByteArray':
+      case "ByteArray":
         return value;
-      case 'Integer':
+      case "Integer":
         return value;
     }
   });

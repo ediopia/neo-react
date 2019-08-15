@@ -2,6 +2,9 @@
 
 > React component that helps to handle encrypting and decrypting NEO wallet keys.
 
+## Demo
+[Click](https://codesandbox.io/s/neo-reactlocal-wallet-yfcvd)
+
 ## Usage
 
 ```typescript
@@ -25,3 +28,11 @@ const WalletModal = () => {
   )
 }
 ```
+
+## Api
+
+| Props | Type | Description |
+| --- | ---  | --- |
+| savedWallets | array | It passes encrypted key list.
+| onConnected | func | It returns wallet data after it is connected.
+
